@@ -400,6 +400,7 @@ a{
     border-radius: 3rem;
 } 
 
+
 .review .box-container .box p { 
     font-size: 1.5rem;
     line-height: 1.8;
@@ -664,6 +665,16 @@ a{
         margin: 1.5rem;
         padding: 0.5rem;
         font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 576px){
+    html{
+        font-size: 50%;
+    }
+
+    .header #menu-btn{
+        display: inline-block;
     }
   }
    
